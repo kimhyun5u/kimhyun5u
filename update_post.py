@@ -14,14 +14,11 @@ for idx, item in enumerate(rss_feed['items']):
   feed_date = item['published_parsed']
   latest_posts += f" - [{feed_date.tm_year}/{feed_date.tm_mon}/{feed_date.tm_mday} - {item['title']}]({item['link']})\n"
 
-preREADME = """
-<p align="center">
-  <a href="mailto:22kimhynu5u@gmail.com">Mail</a> | <a href="https://blog.kimhyun5u.com/">Blog</a> | <a href="https://www.linkedin.com/in/kimhyun5u">LinkedIn</a>
-</p>
 
-### Recent Posts
+preREADME = """"""
+with open('base_README.md', 'r', encoding='utf-8') as file:
+    preREADME = file.read()
 
-"""
 
 resultREADME = f"{preREADME}{latest_posts}"
 

@@ -28,7 +28,7 @@ jobs:
         pip install feedparser
     - name: Run Update Python Script
       run: |
-        python update_post.py ## 실행시킬 .py이름
+        python update_blogPost.py ## 실행시킬 .py이름
     - name: Update README.md file
       run: |
         git pull

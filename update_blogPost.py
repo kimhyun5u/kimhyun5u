@@ -1,4 +1,5 @@
 ## update_blogPost.py
+from datetime import datetime
 import feedparser
 
 blog_url = "https://kimhyun5u.tistory.com/rss"
@@ -6,7 +7,10 @@ rss_feed = feedparser.parse(blog_url)
 
 MAX_NUM = 5
 
-latest_posts = ""
+# 현재 날짜와 시간을 문자열로 변환
+current_time = datetime.now().strftime("%Y-%m-%d")
+
+latest_posts = f"updated at {current_time} (UTC)\n\n"
 
 for idx, item in enumerate(rss_feed['items']):
   if idx > MAX_NUM:

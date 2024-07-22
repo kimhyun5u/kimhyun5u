@@ -10,6 +10,8 @@
 </p>
 
 ### Recent Posts
+updated at 2024-07-22 (UTC)
+
  - [2024/7/20 - 내가 만든 was, Maven에 올렸지](https://kimhyun5u.tistory.com/18)
  - [2024/7/10 - Java 프로그램 바이트 코드를 분석해보자](https://kimhyun5u.tistory.com/17)
  - [2024/7/8 - ServerSocket의 내부 동작 살펴보기: TCP 연결 설정의 로우레벨 이해](https://kimhyun5u.tistory.com/16)

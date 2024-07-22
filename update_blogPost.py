@@ -10,7 +10,7 @@ MAX_NUM = 5
 # 현재 날짜와 시간을 문자열로 변환
 current_time = datetime.now().strftime("%Y-%m-%d")
 
-latest_posts = f"updated at {current_time} (UTC)\n\n"
+latest_posts = ""
 
 for idx, item in enumerate(rss_feed['items']):
   if idx > MAX_NUM:
@@ -18,6 +18,7 @@ for idx, item in enumerate(rss_feed['items']):
   feed_date = item['published_parsed']
   latest_posts += f" - [{feed_date.tm_year}/{feed_date.tm_mon}/{feed_date.tm_mday} - {item['title']}]({item['link']})\n"
 
+lastest_posts += f"\n\nupdated at {current_time}"
 
 preREADME = """"""
 with open('base_README.md', 'r', encoding='utf-8') as file:

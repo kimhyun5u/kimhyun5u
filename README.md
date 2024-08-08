@@ -18,4 +18,4 @@
  - [2024/5/2 - [LiveStreamingOnWebRTC] 스트리밍 서비스를 WebRTC로 구현해보기](https://kimhyun5u.tistory.com/13)
 
 
-updated at 2024-08-07
+updated at 2024-08-08

@@ -1,5 +1,5 @@
 # Hi there, it's Hyunsu Kim here 👋 :)
-## I'm a Software Engineer at SK Inc. C&C
+## I'm a Software Engineer at SK AX
 
 ## I'm currently...
 
